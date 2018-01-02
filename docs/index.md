@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+### **Yifan's notes**
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+Res Severa Verum Gaudium.
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+### Books and documents
 
-## Project layout
+See [books and documents](books.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Progress bar
+
+See [progress bar](progress.md)
