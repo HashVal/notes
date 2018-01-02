@@ -2,38 +2,78 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "Yifan's notes\n\n\nRes Severa Verum Gaudium.\n\n\nBooks and documents\n\n\nSee \nbooks and documents\n\n\nProgress bar\n\n\nSee \nprogress bar", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-mkdocs", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Welcome to MkDocs"
+            "location": "/#yifans-notes", 
+            "text": "Res Severa Verum Gaudium.", 
+            "title": "Yifan's notes"
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
+            "location": "/#books-and-documents", 
+            "text": "See  books and documents", 
+            "title": "Books and documents"
         }, 
         {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "location": "/#progress-bar", 
+            "text": "See  progress bar", 
+            "title": "Progress bar"
         }, 
         {
-            "location": "/isdm/contents/", 
-            "text": "Intel\u00ae 64 and IA-32 Architectures Software Developer Manuals\n\n\nIntroduction\n\n\nWait for update", 
-            "title": "Contents"
+            "location": "/books/", 
+            "text": "Books and documents\n\n\nHere comes Yifan's reading notes of books and documents. Every chapter in a book is kept in a single page, with summary, hint, points and also questions(should be solved then).\n\n\nISDM\n\n\nIntel 64 and IA-32 Architectures Software Developer Manuals\n\n\nBy Intel", 
+            "title": "Books and Documents"
         }, 
         {
-            "location": "/isdm/contents/#intel-64-and-ia-32-architectures-software-developer-manuals", 
+            "location": "/books/#books-and-documents", 
+            "text": "Here comes Yifan's reading notes of books and documents. Every chapter in a book is kept in a single page, with summary, hint, points and also questions(should be solved then).", 
+            "title": "Books and documents"
+        }, 
+        {
+            "location": "/books/#isdm", 
+            "text": "Intel 64 and IA-32 Architectures Software Developer Manuals  By Intel", 
+            "title": "ISDM"
+        }, 
+        {
+            "location": "/progress/", 
+            "text": "Progress bar\n\n\nHere comes Yifan's progress status of reading lists.\n\n\nShortcuts\n\n\nISDM\n\n\nProgress\n\n\n\n\n\n\n\n\nName\n\n\nStatus\n\n\nProgress\n\n\n\n\n\n\n\n\n\n\nISDM\n\n\nWIP\n\n\nStarted", 
+            "title": "Progress Bar"
+        }, 
+        {
+            "location": "/progress/#progress-bar", 
+            "text": "Here comes Yifan's progress status of reading lists.", 
+            "title": "Progress bar"
+        }, 
+        {
+            "location": "/progress/#shortcuts", 
+            "text": "ISDM", 
+            "title": "Shortcuts"
+        }, 
+        {
+            "location": "/progress/#progress", 
+            "text": "Name  Status  Progress      ISDM  WIP  Started", 
+            "title": "Progress"
+        }, 
+        {
+            "location": "/isdm/", 
+            "text": "ISDM\n\n\n\n\nChapter 1 About This Manual", 
+            "title": "Index"
+        }, 
+        {
+            "location": "/isdm/#isdm", 
+            "text": "Chapter 1 About This Manual", 
+            "title": "ISDM"
+        }, 
+        {
+            "location": "/isdm/chapter1/", 
+            "text": "Chapter 1 About this manual", 
+            "title": "Chapter 1 About This Manual"
+        }, 
+        {
+            "location": "/isdm/chapter1/#chapter-1-about-this-manual", 
             "text": "", 
-            "title": "Intel\u00ae 64 and IA-32 Architectures Software Developer Manuals"
-        }, 
-        {
-            "location": "/isdm/contents/#introduction", 
-            "text": "Wait for update", 
-            "title": "Introduction"
+            "title": "Chapter 1 About this manual"
         }
     ]
 }

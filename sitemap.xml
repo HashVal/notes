@@ -10,9 +10,31 @@
     
 
     
+    <url>
+     <loc>http://notes.yifanli.me/books/</loc>
+     <lastmod>2018-01-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://notes.yifanli.me/progress/</loc>
+     <lastmod>2018-01-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
         
     <url>
-     <loc>http://notes.yifanli.me/isdm/contents/</loc>
+     <loc>http://notes.yifanli.me/isdm/</loc>
+     <lastmod>2018-01-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://notes.yifanli.me/isdm/chapter1/</loc>
      <lastmod>2018-01-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
