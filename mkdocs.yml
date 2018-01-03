@@ -12,3 +12,4 @@ pages:
     - ISDM:
         - 'Index': 'isdm/index.md'
         - 'Chapter 1 About This Manual': 'isdm/chapter1.md'
+        - 'Chapter 2 INTEL64 AND IA-32 ARCHITECTURES': 'isdm/chapter2.md'

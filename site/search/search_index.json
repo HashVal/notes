@@ -57,12 +57,12 @@
         }, 
         {
             "location": "/isdm/", 
-            "text": "ISDM\n\n\n\n\nChapter 1 About This Manual", 
+            "text": "ISDM\n\n\n\n\nChapter 1 About This Manual\n\n\nChapter 2 INTEL64 AND IA-32 ARCHITECTURES", 
             "title": "Index"
         }, 
         {
             "location": "/isdm/#isdm", 
-            "text": "Chapter 1 About This Manual", 
+            "text": "Chapter 1 About This Manual  Chapter 2 INTEL64 AND IA-32 ARCHITECTURES", 
             "title": "ISDM"
         }, 
         {
@@ -84,6 +84,21 @@
             "location": "/isdm/chapter1/#notational-conventions", 
             "text": "Bit and Byte Order  Intel 64 and IA-32 processors are \u201clittle endian\u201d machines; this means the bytes of a word are numbered starting from the least significant byte.  Reserved Bits and Software Compatibility  Instruction operands  label: mnemonic argument1, argument2, argument3  Hexadecimal numbers: 09FACH (end with  H )\nBinary numbers: 1010B (end with  B )  Segement addressing\nThe processor uses byte addressing and also supports segement addressing( example: DS:FF79H and CS:EIP).  CR: control register  MSR: model-specific register  For CPUID, CR, MSR syntax, see here:   Exceptions: an event that typically occurs when an instruction causes an error. Such as divide by zero, page-fault.", 
             "title": "Notational Conventions"
+        }, 
+        {
+            "location": "/isdm/chapter2/", 
+            "text": "Chapter 2 INTEL64 AND IA-32 ARCHITECTURES\n\n\nSummary", 
+            "title": "Chapter 2 INTEL64 AND IA-32 ARCHITECTURES"
+        }, 
+        {
+            "location": "/isdm/chapter2/#chapter-2-intel64-and-ia-32-architectures", 
+            "text": "", 
+            "title": "Chapter 2 INTEL64 AND IA-32 ARCHITECTURES"
+        }, 
+        {
+            "location": "/isdm/chapter2/#summary", 
+            "text": "", 
+            "title": "Summary"
         }
     ]
 }
