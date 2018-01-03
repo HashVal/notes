@@ -251,9 +251,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#chapter-1-about-this-manual" title="Chapter 1 About this manual" class="md-nav__link">
-    Chapter 1 About this manual
+  <a href="#chapter-1-about-this-manual" title="Chapter 1 About This Manual" class="md-nav__link">
+    Chapter 1 About This Manual
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notational-conventions" title="Notational Conventions" class="md-nav__link">
+    Notational Conventions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -290,9 +310,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#chapter-1-about-this-manual" title="Chapter 1 About this manual" class="md-nav__link">
-    Chapter 1 About this manual
+  <a href="#chapter-1-about-this-manual" title="Chapter 1 About This Manual" class="md-nav__link">
+    Chapter 1 About This Manual
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notational-conventions" title="Notational Conventions" class="md-nav__link">
+    Notational Conventions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -313,7 +353,26 @@
                 
                   <h1>Chapter 1 About This Manual</h1>
                 
-                <h3 id="chapter-1-about-this-manual"><strong>Chapter 1 About this manual</strong></h3>
+                <h3 id="chapter-1-about-this-manual"><strong>Chapter 1 About This Manual</strong></h3>
+<h4 id="summary"><strong>Summary</strong></h4>
+<p>Gives an overview of all five volumes of the Intel® 64 and IA-32 Architectures Software Developer’s Manual. It also describes the notational conventions in these manuals and lists related Intel manuals and documentation of interest to programmers and hardware designers.</p>
+<h4 id="notational-conventions"><strong>Notational Conventions</strong></h4>
+<p><strong>Bit and Byte Order</strong></p>
+<p>Intel 64 and IA-32 processors are “little endian” machines; this means the bytes of a word are numbered starting from the least significant byte.</p>
+<p><strong>Reserved Bits and Software Compatibility</strong></p>
+<p>Instruction operands</p>
+<pre><code>label: mnemonic argument1, argument2, argument3
+</code></pre>
+
+<p>Hexadecimal numbers: 09FACH (end with <strong>H</strong>)
+Binary numbers: 1010B (end with <strong>B</strong>)</p>
+<p>Segement addressing
+The processor uses byte addressing and also supports segement addressing( example: DS:FF79H and CS:EIP).</p>
+<p>CR: control register</p>
+<p>MSR: model-specific register</p>
+<p>For CPUID, CR, MSR syntax, see here:</p>
+<p><img alt="Syntax for CPUID, CR and MSR Data presentation" src="../fig-1-1.png" /></p>
+<p>Exceptions: an event that typically occurs when an instruction causes an error. Such as divide by zero, page-fault.</p>
                 
                   
                 
