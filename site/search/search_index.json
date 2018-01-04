@@ -87,7 +87,7 @@
         }, 
         {
             "location": "/isdm/chapter2/", 
-            "text": "Chapter 2 INTEL64 AND IA-32 ARCHITECTURES\n\n\nSummary", 
+            "text": "Chapter 2 INTEL64 AND IA-32 ARCHITECTURES\n\n\nSummary\n\n\nINTEL64 And IA-32 History\n\n\n\n\n\n\n16-bit Processors(1978)\n\n\n\n\nReprensent processors\n\n\n8086: 16-bit registers, 16-bit external data bus, 20-bit addressing\n\n\n8088: Similar with 8086, but 8-bit external data bus.\n\n\n\n\n\n\nPoints\n\n\nSegmentation\n\n\n\n\n\n\n\n\n\n\n\n\n80286 Processor(1982)\n\n\n\n\nProtect mode\n\n\nMemory up to 16MBytes\n\n\nMemory protect mechanisms\n\n\nSegment limit checking\n\n\nRead-only and execute-only segment options\n\n\nFour privilege levels\n\n\n\n\n\n\n\n\n\n\n\n\n80386 Processor(1985)\n\n\n\n\nFirst 32-bit processor, 32-bit registers for both operands and addressing.\n\n\nUse low-half to retain properties of 16-bit registers for backward compatibility.\n\n\nSupport\n\n\n32-bit address bus for up to 4GBytes memory\n\n\nA segmented-memory model and a flat memory model\n\n\nPaging, with a fixed 4-KByte page size providing a method for virtual memory management\n\n\nParallel stages\n\n\n\n\n\n\n\n\n\n\n\n\n80486 Processor(1989)\n\n\n\n\nMore parallel execution capability by expanding the Intel386 processor\u2019s instruction\ndecode and execution units into five pipelined stages\n\n\nAdd\n\n\n8-KByte on-chip first-level cache\n\n\nintegrated x87 FPU(Float Processing Unit)\n\n\nPower saving and system management capabilities", 
             "title": "Chapter 2 INTEL64 AND IA-32 ARCHITECTURES"
         }, 
         {
@@ -97,7 +97,7 @@
         }, 
         {
             "location": "/isdm/chapter2/#summary", 
-            "text": "", 
+            "text": "INTEL64 And IA-32 History    16-bit Processors(1978)   Reprensent processors  8086: 16-bit registers, 16-bit external data bus, 20-bit addressing  8088: Similar with 8086, but 8-bit external data bus.    Points  Segmentation       80286 Processor(1982)   Protect mode  Memory up to 16MBytes  Memory protect mechanisms  Segment limit checking  Read-only and execute-only segment options  Four privilege levels       80386 Processor(1985)   First 32-bit processor, 32-bit registers for both operands and addressing.  Use low-half to retain properties of 16-bit registers for backward compatibility.  Support  32-bit address bus for up to 4GBytes memory  A segmented-memory model and a flat memory model  Paging, with a fixed 4-KByte page size providing a method for virtual memory management  Parallel stages       80486 Processor(1989)   More parallel execution capability by expanding the Intel386 processor\u2019s instruction\ndecode and execution units into five pipelined stages  Add  8-KByte on-chip first-level cache  integrated x87 FPU(Float Processing Unit)  Power saving and system management capabilities", 
             "title": "Summary"
         }
     ]
