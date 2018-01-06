@@ -9,7 +9,8 @@ pages:
     - Home: 'index.md'
     - Books and Documents: 'books.md'
     - Progress Bar: 'progress.md'
+    - Topics: 'topics.md'
     - ISDM:
         - 'Index': 'isdm/index.md'
         - 'Chapter 1 About This Manual': 'isdm/chapter1.md'
-        - 'Chapter 2 INTEL64 AND IA-32 ARCHITECTURES': 'isdm/chapter2.md'
+        - 'Chapter 2 Intel64 And IA-32 Architectures': 'isdm/chapter2.md'

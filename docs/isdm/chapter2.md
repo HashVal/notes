@@ -36,4 +36,32 @@ decode and execution units into five pipelined stages
         * integrated x87 FPU(Float Processing Unit)
         * Power saving and system management capabilities
 
+5. Pentium Processor(1993)
+    * 2nd execution pipeline to achieve superscalar performance(u & v).
+    * On-chip first-level chache dobuled.
+    * [MESI protocal](https://en.wikipedia.org/wiki/MESI_protocol)
+    * [Intel MMX Technology](https://en.wikipedia.org/wiki/MMX_(instruction_set))(subsequent stepping, introduced in 1997, P5-based Pentium processors): single-instruction, multiple-data (SIMD) execution model to perform parallel computations on packed integer data contained in 64-bit registers. See also "SIMD Instrcutions".
+    * Add
+        * Extensions to make the virtual-8086 mode more efficient and allow for 4-MByte as well as 4-KByte pages
+        * Internal data paths of 128 and 256 bits add speed to internal data transfers
+        * Burstable external data bus was increased to 64 bits
+        * [APIC](https://en.wikipedia.org/wiki/Advanced_Programmable_Interrupt_Controller) to support multi-processor systems
+        * Dual processor mode to support glueless two processor systems
+
+6. P6 Family Processors(1995-1999)
+    * Based on superscalar microarchitecture and goals set to exceed performance of Pentium Processor with same physical and manufacture standard.
+    * Members are
+        * Pentium Pro
+        * Pentium II
+        * Pentium II Xeon
+        * Celeron
+        * Pentium III
+        * Pentium III Xeon
+    * New technology added
+        * Three-way superscalar starts at Intel Pentium Pro, able to decode, dispatch and complete execution three instructions per clock cycle. Upgrade to 4-way and 8-way in Pentium II Xeon.
+        * Level-2 cache added in Intel Pentium Pro.
+        * Power management states added: AutoHALT, Stop-Grant, Sleep and Deep Sleep.
+        * Streaming SIMD Extensions (SSE) introduced to IA-32 architecture in Pentium III.
+
+7. Pentium 4 Family Processors(2000-2006)
 
