@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Yifan's notes\n\n\nRes Severa Verum Gaudium.\n\n\nBooks and documents\n\n\nSee \nbooks and documents\n\n\nProgress bar\n\n\nSee \nprogress bar", 
+            "text": "Yifan's notes\n\n\nRes Severa Verum Gaudium.\n\n\nBooks and documents\n\n\nSee \nbooks and documents\n\n\nProgress bar\n\n\nSee \nprogress bar\n\n\nTopics\n\n\nSee \ndiscussion and blog topics", 
             "title": "Home"
         }, 
         {
@@ -19,6 +19,11 @@
             "location": "/#progress-bar", 
             "text": "See  progress bar", 
             "title": "Progress bar"
+        }, 
+        {
+            "location": "/#topics", 
+            "text": "See  discussion and blog topics", 
+            "title": "Topics"
         }, 
         {
             "location": "/books/", 
@@ -56,13 +61,28 @@
             "title": "Progress"
         }, 
         {
+            "location": "/topics/", 
+            "text": "Discussion and blog topics\n\n\nHere comes the blog/note topics I am interested.\n\n\nComputer Architecture\n\n\nRefs\n\n\n\n\nWikiPedia: Computer architecture\n\n\n\n\nTopics\n\n\n\n\n\n\nTuring Machine and Computer Architecture Evolution\n\n\n\n\nTuring machine\n\n\nComputer architecture before WW II\n\n\nIBM time, IBM S/360 and so on\n\n\nPersonal computers, and modern computer architectures\n\n\nFuture, what's next\n\n\n\n\n\n\n\n\nProcessor Architecture *\n\n\n\n\nScalar processor and superscalar processor\n\n\nInstruction stream and data stream, single and multiple\n\n\nPipeline technology\n\n\nMore to be added...", 
+            "title": "Topics"
+        }, 
+        {
+            "location": "/topics/#discussion-and-blog-topics", 
+            "text": "Here comes the blog/note topics I am interested.", 
+            "title": "Discussion and blog topics"
+        }, 
+        {
+            "location": "/topics/#computer-architecture", 
+            "text": "Refs   WikiPedia: Computer architecture   Topics    Turing Machine and Computer Architecture Evolution   Turing machine  Computer architecture before WW II  IBM time, IBM S/360 and so on  Personal computers, and modern computer architectures  Future, what's next     Processor Architecture *   Scalar processor and superscalar processor  Instruction stream and data stream, single and multiple  Pipeline technology  More to be added...", 
+            "title": "Computer Architecture"
+        }, 
+        {
             "location": "/isdm/", 
-            "text": "ISDM\n\n\n\n\nChapter 1 About This Manual\n\n\nChapter 2 INTEL64 AND IA-32 ARCHITECTURES", 
+            "text": "ISDM\n\n\n\n\nChapter 1 About This Manual\n\n\nChapter 2 Intel64 And IA-32 Architectures", 
             "title": "Index"
         }, 
         {
             "location": "/isdm/#isdm", 
-            "text": "Chapter 1 About This Manual  Chapter 2 INTEL64 AND IA-32 ARCHITECTURES", 
+            "text": "Chapter 1 About This Manual  Chapter 2 Intel64 And IA-32 Architectures", 
             "title": "ISDM"
         }, 
         {
@@ -87,8 +107,8 @@
         }, 
         {
             "location": "/isdm/chapter2/", 
-            "text": "Chapter 2 INTEL64 AND IA-32 ARCHITECTURES\n\n\nSummary\n\n\nINTEL64 And IA-32 History\n\n\n\n\n\n\n16-bit Processors(1978)\n\n\n\n\nReprensent processors\n\n\n8086: 16-bit registers, 16-bit external data bus, 20-bit addressing\n\n\n8088: Similar with 8086, but 8-bit external data bus.\n\n\n\n\n\n\nPoints\n\n\nSegmentation\n\n\n\n\n\n\n\n\n\n\n\n\n80286 Processor(1982)\n\n\n\n\nProtect mode\n\n\nMemory up to 16MBytes\n\n\nMemory protect mechanisms\n\n\nSegment limit checking\n\n\nRead-only and execute-only segment options\n\n\nFour privilege levels\n\n\n\n\n\n\n\n\n\n\n\n\n80386 Processor(1985)\n\n\n\n\nFirst 32-bit processor, 32-bit registers for both operands and addressing.\n\n\nUse low-half to retain properties of 16-bit registers for backward compatibility.\n\n\nSupport\n\n\n32-bit address bus for up to 4GBytes memory\n\n\nA segmented-memory model and a flat memory model\n\n\nPaging, with a fixed 4-KByte page size providing a method for virtual memory management\n\n\nParallel stages\n\n\n\n\n\n\n\n\n\n\n\n\n80486 Processor(1989)\n\n\n\n\nMore parallel execution capability by expanding the Intel386 processor\u2019s instruction\ndecode and execution units into five pipelined stages\n\n\nAdd\n\n\n8-KByte on-chip first-level cache\n\n\nintegrated x87 FPU(Float Processing Unit)\n\n\nPower saving and system management capabilities", 
-            "title": "Chapter 2 INTEL64 AND IA-32 ARCHITECTURES"
+            "text": "Chapter 2 INTEL64 AND IA-32 ARCHITECTURES\n\n\nSummary\n\n\nINTEL64 And IA-32 History\n\n\n\n\n\n\n16-bit Processors(1978)\n\n\n\n\nReprensent processors\n\n\n8086: 16-bit registers, 16-bit external data bus, 20-bit addressing\n\n\n8088: Similar with 8086, but 8-bit external data bus.\n\n\n\n\n\n\nPoints\n\n\nSegmentation\n\n\n\n\n\n\n\n\n\n\n\n\n80286 Processor(1982)\n\n\n\n\nProtect mode\n\n\nMemory up to 16MBytes\n\n\nMemory protect mechanisms\n\n\nSegment limit checking\n\n\nRead-only and execute-only segment options\n\n\nFour privilege levels\n\n\n\n\n\n\n\n\n\n\n\n\n80386 Processor(1985)\n\n\n\n\nFirst 32-bit processor, 32-bit registers for both operands and addressing.\n\n\nUse low-half to retain properties of 16-bit registers for backward compatibility.\n\n\nSupport\n\n\n32-bit address bus for up to 4GBytes memory\n\n\nA segmented-memory model and a flat memory model\n\n\nPaging, with a fixed 4-KByte page size providing a method for virtual memory management\n\n\nParallel stages\n\n\n\n\n\n\n\n\n\n\n\n\n80486 Processor(1989)\n\n\n\n\nMore parallel execution capability by expanding the Intel386 processor\u2019s instruction\ndecode and execution units into five pipelined stages\n\n\nAdd\n\n\n8-KByte on-chip first-level cache\n\n\nintegrated x87 FPU(Float Processing Unit)\n\n\nPower saving and system management capabilities\n\n\n\n\n\n\n\n\n\n\n\n\nPentium Processor(1993)\n\n\n\n\n2nd execution pipeline to achieve superscalar performance(u \n v).\n\n\nOn-chip first-level chache dobuled.\n\n\nMESI protocal\n\n\nIntel MMX Technology\n(subsequent stepping, introduced in 1997, P5-based Pentium processors): single-instruction, multiple-data (SIMD) execution model to perform parallel computations on packed integer data contained in 64-bit registers. See also \"SIMD Instrcutions\".\n\n\nAdd\n\n\nExtensions to make the virtual-8086 mode more efficient and allow for 4-MByte as well as 4-KByte pages\n\n\nInternal data paths of 128 and 256 bits add speed to internal data transfers\n\n\nBurstable external data bus was increased to 64 bits\n\n\nAPIC\n to support multi-processor systems\n\n\nDual processor mode to support glueless two processor systems\n\n\n\n\n\n\n\n\n\n\n\n\nP6 Family Processors(1995-1999)\n\n\n\n\nBased on superscalar microarchitecture and goals set to exceed performance of Pentium Processor with same physical and manufacture standard.\n\n\nMembers are\n\n\nPentium Pro\n\n\nPentium II\n\n\nPentium II Xeon\n\n\nCeleron\n\n\nPentium III\n\n\nPentium III Xeon\n\n\n\n\n\n\nNew technology added\n\n\nThree-way superscalar starts at Intel Pentium Pro, able to decode, dispatch and complete execution three instructions per clock cycle. Upgrade to 4-way and 8-way in Pentium II Xeon.\n\n\nLevel-2 cache added in Intel Pentium Pro.\n\n\nPower management states added: AutoHALT, Stop-Grant, Sleep and Deep Sleep.\n\n\nStreaming SIMD Extensions (SSE) introduced to IA-32 architecture in Pentium III.\n\n\n\n\n\n\n\n\n\n\n\n\nPentium 4 Family Processors(2000-2006)", 
+            "title": "Chapter 2 Intel64 And IA-32 Architectures"
         }, 
         {
             "location": "/isdm/chapter2/#chapter-2-intel64-and-ia-32-architectures", 
@@ -97,7 +117,7 @@
         }, 
         {
             "location": "/isdm/chapter2/#summary", 
-            "text": "INTEL64 And IA-32 History    16-bit Processors(1978)   Reprensent processors  8086: 16-bit registers, 16-bit external data bus, 20-bit addressing  8088: Similar with 8086, but 8-bit external data bus.    Points  Segmentation       80286 Processor(1982)   Protect mode  Memory up to 16MBytes  Memory protect mechanisms  Segment limit checking  Read-only and execute-only segment options  Four privilege levels       80386 Processor(1985)   First 32-bit processor, 32-bit registers for both operands and addressing.  Use low-half to retain properties of 16-bit registers for backward compatibility.  Support  32-bit address bus for up to 4GBytes memory  A segmented-memory model and a flat memory model  Paging, with a fixed 4-KByte page size providing a method for virtual memory management  Parallel stages       80486 Processor(1989)   More parallel execution capability by expanding the Intel386 processor\u2019s instruction\ndecode and execution units into five pipelined stages  Add  8-KByte on-chip first-level cache  integrated x87 FPU(Float Processing Unit)  Power saving and system management capabilities", 
+            "text": "INTEL64 And IA-32 History    16-bit Processors(1978)   Reprensent processors  8086: 16-bit registers, 16-bit external data bus, 20-bit addressing  8088: Similar with 8086, but 8-bit external data bus.    Points  Segmentation       80286 Processor(1982)   Protect mode  Memory up to 16MBytes  Memory protect mechanisms  Segment limit checking  Read-only and execute-only segment options  Four privilege levels       80386 Processor(1985)   First 32-bit processor, 32-bit registers for both operands and addressing.  Use low-half to retain properties of 16-bit registers for backward compatibility.  Support  32-bit address bus for up to 4GBytes memory  A segmented-memory model and a flat memory model  Paging, with a fixed 4-KByte page size providing a method for virtual memory management  Parallel stages       80486 Processor(1989)   More parallel execution capability by expanding the Intel386 processor\u2019s instruction\ndecode and execution units into five pipelined stages  Add  8-KByte on-chip first-level cache  integrated x87 FPU(Float Processing Unit)  Power saving and system management capabilities       Pentium Processor(1993)   2nd execution pipeline to achieve superscalar performance(u   v).  On-chip first-level chache dobuled.  MESI protocal  Intel MMX Technology (subsequent stepping, introduced in 1997, P5-based Pentium processors): single-instruction, multiple-data (SIMD) execution model to perform parallel computations on packed integer data contained in 64-bit registers. See also \"SIMD Instrcutions\".  Add  Extensions to make the virtual-8086 mode more efficient and allow for 4-MByte as well as 4-KByte pages  Internal data paths of 128 and 256 bits add speed to internal data transfers  Burstable external data bus was increased to 64 bits  APIC  to support multi-processor systems  Dual processor mode to support glueless two processor systems       P6 Family Processors(1995-1999)   Based on superscalar microarchitecture and goals set to exceed performance of Pentium Processor with same physical and manufacture standard.  Members are  Pentium Pro  Pentium II  Pentium II Xeon  Celeron  Pentium III  Pentium III Xeon    New technology added  Three-way superscalar starts at Intel Pentium Pro, able to decode, dispatch and complete execution three instructions per clock cycle. Upgrade to 4-way and 8-way in Pentium II Xeon.  Level-2 cache added in Intel Pentium Pro.  Power management states added: AutoHALT, Stop-Grant, Sleep and Deep Sleep.  Streaming SIMD Extensions (SSE) introduced to IA-32 architecture in Pentium III.       Pentium 4 Family Processors(2000-2006)", 
             "title": "Summary"
         }
     ]
