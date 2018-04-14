@@ -27,7 +27,7 @@
         }, 
         {
             "location": "/books/", 
-            "text": "Books and documents\n\n\nHere comes Yifan's reading notes of books and documents. Every chapter in a book is kept in a single page, with summary, hint, points and also questions(should be solved then).\n\n\nISDM\n\n\nIntel 64 and IA-32 Architectures Software Developer Manuals\n\n\nBy Intel", 
+            "text": "Books and documents\n\n\nHere comes Yifan's reading notes of books and documents. Every chapter in a book is kept in a single page, with summary, hint, points and also questions(should be solved then).\n\n\nISDM\n\n\nIntel 64 and IA-32 Architectures Software Developer Manuals\n\n\nBy Intel\n\n\nDesign Patterns\n\n\n\u300aHead First \u8bbe\u8ba1\u6a21\u5f0f\u300b\n\n\n\u300a\u8bbe\u8ba1\u6a21\u5f0f\u300b", 
             "title": "Books and Documents"
         }, 
         {
@@ -41,8 +41,13 @@
             "title": "ISDM"
         }, 
         {
+            "location": "/books/#design-patterns", 
+            "text": "\u300aHead First \u8bbe\u8ba1\u6a21\u5f0f\u300b  \u300a\u8bbe\u8ba1\u6a21\u5f0f\u300b", 
+            "title": "Design Patterns"
+        }, 
+        {
             "location": "/progress/", 
-            "text": "Progress bar\n\n\nHere comes Yifan's progress status of reading lists.\n\n\nShortcuts\n\n\nISDM\n\n\nProgress\n\n\n\n\n\n\n\n\nName\n\n\nStatus\n\n\nProgress\n\n\n\n\n\n\n\n\n\n\nISDM\n\n\nWIP\n\n\nStarted", 
+            "text": "Progress bar\n\n\nHere comes Yifan's progress status of reading lists.\n\n\nShortcuts\n\n\nISDM\n\n\nDesign Patterns\n\n\nProgress\n\n\n\n\n\n\n\n\nName\n\n\nStatus\n\n\nProgress\n\n\n\n\n\n\n\n\n\n\nISDM\n\n\nWIP\n\n\nStarted\n\n\n\n\n\n\nDesign Patterns\n\n\nWIP\n\n\nStarted", 
             "title": "Progress Bar"
         }, 
         {
@@ -52,17 +57,17 @@
         }, 
         {
             "location": "/progress/#shortcuts", 
-            "text": "ISDM", 
+            "text": "ISDM  Design Patterns", 
             "title": "Shortcuts"
         }, 
         {
             "location": "/progress/#progress", 
-            "text": "Name  Status  Progress      ISDM  WIP  Started", 
+            "text": "Name  Status  Progress      ISDM  WIP  Started    Design Patterns  WIP  Started", 
             "title": "Progress"
         }, 
         {
             "location": "/topics/", 
-            "text": "Discussion and blog topics\n\n\nHere comes the blog/note topics I am interested.\n\n\nComputer Architecture\n\n\nRefs\n\n\n\n\nWikiPedia: Computer architecture\n\n\n\n\nTopics\n\n\n\n\n\n\nTuring Machine and Computer Architecture Evolution\n\n\n\n\nTuring machine\n\n\nComputer architecture before WW II\n\n\nIBM time, IBM S/360 and so on\n\n\nPersonal computers, and modern computer architectures\n\n\nFuture, what's next\n\n\n\n\n\n\n\n\nProcessor Architecture *\n\n\n\n\nScalar processor and superscalar processor\n\n\nInstruction stream and data stream, single and multiple\n\n\nPipeline technology\n\n\nMore to be added...", 
+            "text": "Discussion and blog topics\n\n\nHere comes the blog/note topics I am interested.\n\n\nComputer Architecture\n\n\nRefs\n\n\n\n\nWikiPedia: Computer architecture\n\n\n\n\nTopics\n\n\n\n\n\n\nTuring Machine and Computer Architecture Evolution\n\n\n\n\nTuring machine\n\n\nComputer architecture before WW II\n\n\nIBM time, IBM S/360 and so on\n\n\nPersonal computers, and modern computer architectures\n\n\nFuture, what's next\n\n\n\n\n\n\n\n\nProcessor Architecture *\n\n\n\n\nScalar processor and superscalar processor\n\n\nInstruction stream and data stream, single and multiple\n\n\nPipeline technology\n\n\nMore to be added...\n\n\n\n\n\n\n\n\nDesign Patterns\n\n\nDesign Patterns, what, why and how\n\n\nDesign patterns of best practice in python", 
             "title": "Topics"
         }, 
         {
@@ -74,6 +79,11 @@
             "location": "/topics/#computer-architecture", 
             "text": "Refs   WikiPedia: Computer architecture   Topics    Turing Machine and Computer Architecture Evolution   Turing machine  Computer architecture before WW II  IBM time, IBM S/360 and so on  Personal computers, and modern computer architectures  Future, what's next     Processor Architecture *   Scalar processor and superscalar processor  Instruction stream and data stream, single and multiple  Pipeline technology  More to be added...", 
             "title": "Computer Architecture"
+        }, 
+        {
+            "location": "/topics/#design-patterns", 
+            "text": "Design Patterns, what, why and how  Design patterns of best practice in python", 
+            "title": "Design Patterns"
         }, 
         {
             "location": "/isdm/", 
@@ -119,6 +129,41 @@
             "location": "/isdm/chapter2/#summary", 
             "text": "INTEL64 And IA-32 History    16-bit Processors(1978)   Reprensent processors  8086: 16-bit registers, 16-bit external data bus, 20-bit addressing  8088: Similar with 8086, but 8-bit external data bus.    Points  Segmentation       80286 Processor(1982)   Protect mode  Memory up to 16MBytes  Memory protect mechanisms  Segment limit checking  Read-only and execute-only segment options  Four privilege levels       80386 Processor(1985)   First 32-bit processor, 32-bit registers for both operands and addressing.  Use low-half to retain properties of 16-bit registers for backward compatibility.  Support  32-bit address bus for up to 4GBytes memory  A segmented-memory model and a flat memory model  Paging, with a fixed 4-KByte page size providing a method for virtual memory management  Parallel stages       80486 Processor(1989)   More parallel execution capability by expanding the Intel386 processor\u2019s instruction\ndecode and execution units into five pipelined stages  Add  8-KByte on-chip first-level cache  integrated x87 FPU(Float Processing Unit)  Power saving and system management capabilities       Pentium Processor(1993)   2nd execution pipeline to achieve superscalar performance(u   v).  On-chip first-level chache dobuled.  MESI protocal  Intel MMX Technology (subsequent stepping, introduced in 1997, P5-based Pentium processors): single-instruction, multiple-data (SIMD) execution model to perform parallel computations on packed integer data contained in 64-bit registers. See also \"SIMD Instrcutions\".  Add  Extensions to make the virtual-8086 mode more efficient and allow for 4-MByte as well as 4-KByte pages  Internal data paths of 128 and 256 bits add speed to internal data transfers  Burstable external data bus was increased to 64 bits  APIC  to support multi-processor systems  Dual processor mode to support glueless two processor systems       P6 Family Processors(1995-1999)   Based on superscalar microarchitecture and goals set to exceed performance of Pentium Processor with same physical and manufacture standard.  Members are  Pentium Pro  Pentium II  Pentium II Xeon  Celeron  Pentium III  Pentium III Xeon    New technology added  Three-way superscalar starts at Intel Pentium Pro, able to decode, dispatch and complete execution three instructions per clock cycle. Upgrade to 4-way and 8-way in Pentium II Xeon.  Level-2 cache added in Intel Pentium Pro.  Power management states added: AutoHALT, Stop-Grant, Sleep and Deep Sleep.  Streaming SIMD Extensions (SSE) introduced to IA-32 architecture in Pentium III.       Pentium 4 Family Processors(2000-2006)", 
             "title": "Summary"
+        }, 
+        {
+            "location": "/dp/", 
+            "text": "DP\n\n\n\n\nMotivation", 
+            "title": "Index"
+        }, 
+        {
+            "location": "/dp/#dp", 
+            "text": "Motivation", 
+            "title": "DP"
+        }, 
+        {
+            "location": "/dp/motivation/", 
+            "text": "Why design pattern matters?\n\n\nMotivation(\u52a8\u673a)\n\n\n\u4e3a\u4ec0\u4e48\u8981\u5b66\u4e60\u8bbe\u8ba1\u6a21\u5f0f\uff1f\n\n\n\u5728\u4e4b\u524d\u505a\u7ec4\u5185CI\u57fa\u7840\u8bbe\u65bd\u7684\u9879\u76ee\u4e2d\uff0c\u867d\u7136\u6211lead\u4e86\u6574\u4e2a\u9879\u76ee\u5e76\u4e14\u4ea7\u51fa\u4e86\u9879\u76ee\u4ee3\u7801\u768490%\uff0c\u4f46\u6709\u4e9b\u6a21\u5757/\u4ee3\u7801\u7684\u5b9e\u73b0\u5e76\u4e0d\n\u4f18\u96c5\n\uff0c\u4e5f\u4e0dpythonic.\u8ffd\u6839\u6eaf\u6e90\uff0c\u95ee\u9898\u51fa\u5728\u4ee3\u7801\u7684\u7ec4\u7ec7\u7ed3\u6784\u4e0a\u9762\uff0c\u4e5f\u5373\uff0c\u5982\u4f55\u628a\u4ee3\u7801\u8bbe\u8ba1\u7684\u66f4\u52a0\u7b80\u6d01,\u76f4\u89c2\uff0c\u4f18\u96c5\u3002\u6362\u8a00\u4e4b,\u6211\u60f3\u8981\u4fdd\u8bc1\n\u4e00\u5e74\u4e4b\u540e\uff0c\u6211\u770b\u5230\u73b0\u5728\u5199\u7684\u4ee3\u7801\uff0c\u4e0d\u4f1a\u89c9\u5f97\u8fd9\u662f\u54ea\u4e2a\u8822\u8d27\u5199\u7684\u70c2\u4ee3\u7801\n\u3002\u5f53\u7136\uff0c\u4fdd\u8bc1\u4ee3\u7801\u4e0d\u4f1a\u70c2\u6389\u7684\u6700\u4f73\u65b9\u5f0f\u5c31\u662f\u6301\u7eed\u91cd\u6784\uff0c\u6301\u7eed\u5f00\u53d1\uff0c\u4f46\u8bbe\u8ba1\u4f18\u96c5\u7684\u4ee3\u7801\u5929\u7136\u7b80\u6d01\uff0c\u4f18\u7f8e\uff0c\u6613\u4e8e\u4fee\u6539\u3002\n\n\n\u4e3a\u6b64\uff0c\u505a\u4e86\u4e00\u6b21Force Recon\uff0c\u9605\u8bfb\u4e86Peng Gong\u5b66\u957f\u7684\n\u7ecf\u5178\u535a\u6587-\u7a0b\u5e8f\u5458\u5fc5\u8bfb\u4e66\u5355 1.0\n\uff0c\u51b3\u5b9a\u4ed4\u7ec6\u5b66\u4e60\u4e00\u4e0b\u8bbe\u8ba1\u6a21\u5f0f\u3002\n\n\nPlan(\u8ba1\u5212)\n\n\n\u6839\u636e\u524d\u671f\u641c\u96c6\u7684\u4fe1\u606f\u805a\u5408\uff0c\u8ba1\u5212\u5982\u4e0b\u3002\n\n\n\n\n\u5148\u9605\u8bfb\u300aHead First \u8bbe\u8ba1\u6a21\u5f0f\u300b\u4ee5\u4e86\u89e3\u8bbe\u8ba1\u6a21\u5f0f\u7684\u57fa\u7840\u77e5\u8bc6\uff1a\u5178\u578b\u8bbe\u8ba1\u6a21\u5f0f\u3002\n\n\n\u91cd\u65b0Review\u9879\u76ee\u4ee3\u7801\uff0c\u786e\u5b9a\u9700\u8981\u8fdb\u884c\u7684\u521d\u6b65\u6539\u8fdb\uff0c\u5217\u51faTODOLIST\u3002\n\n\n\u9605\u8bfb\u300a\u8bbe\u8ba1\u6a21\u5f0f\u300b(GoF)\uff0c\u786e\u5b9a\u66f4\u6539\u7684\u5fc5\u8981\u6027\uff0c\u4fee\u6539TODOLIST\u4e0e\u539f\u6709\u8bbe\u8ba1\u6587\u6863\u3002\n\n\n\u641c\u96c6Python\u76f8\u5173\u7684\u8bbe\u8ba1\u6a21\u5f0f\u5e94\u7528\u4e8e\u5b9e\u8df5Best Practice\uff0c\u6839\u636eTODOLIST\u8fdb\u884c\u91cd\u6784\u3002\n\n\n\u91cd\u6784\u9879\u76ee\u4ee3\u7801\uff0c\u5e76\u5b9e\u73b0\u5bf9\u5e94\u6d4b\u8bd5\u7528\u4f8b\u3002\n\n\n\n\nDo(\u884c\u52a8)\n\n\n\u8ba1\u5212\u5b8c\u6210\u4ee5\u4e0b\u4efb\u52a1\u3002\n\n\n\n\n\u9605\u8bfb\n\n\n\u9605\u8bfb\u300aHead First \u8bbe\u8ba1\u6a21\u5f0f\u300b\u3002\n\n\n\u9605\u8bfb\u300a\u8bbe\u8ba1\u6a21\u5f0f\u300b\u3002\n\n\n\n\n\u641c\u96c6Python\u8bbe\u8ba1\u6a21\u5f0f\u7684Best Practice\u3002\n\n\n\n\n\n\n\u5b9e\u73b0\n\n\n\n\n\u5236\u5b9aTODOLIST\u3002\n\n\n\u4fee\u6539\u8bbe\u8ba1\u6587\u6863\u4e0e\u6d4b\u8bd5\u6587\u6863\u3002\n\n\n\u91cd\u6784\u4ee3\u7801\u3002\n\n\n\n\n\u5b9e\u73b0\u6d4b\u8bd5\u7528\u4f8b\u3002\n\n\n\n\n\n\n\u8bb0\u5f55\n\n\n\n\n\u5b8c\u6210\u8bbe\u8ba1\u6a21\u5f0f\u76f8\u5173\u9605\u8bfb\u7684\u8bfb\u4e66\u7b14\u8bb0\uff08\u6bcf\u4e2a\u9605\u8bfb\u4efb\u52a1\u4e00\u7bc7\uff09\u3002\n\n\n\u603b\u7ed3\u5b9e\u73b0\u8fc7\u7a0b\u4e2d\u7684\u60f3\u6cd5\u4e0e\u611f\u609f\uff08\u81f3\u5c11\u4e00\u7bc7\uff09\u3002\n\n\n\n\n\u4e0b\u9762\u6ca1\u6709\u4e86\uff0c\u6211\u4e5f\u662f\u6709\u5e95\u7ebf\u7684\u4eba\u3002:)", 
+            "title": "Motivation"
+        }, 
+        {
+            "location": "/dp/motivation/#why-design-pattern-matters", 
+            "text": "", 
+            "title": "Why design pattern matters?"
+        }, 
+        {
+            "location": "/dp/motivation/#motivation", 
+            "text": "\u4e3a\u4ec0\u4e48\u8981\u5b66\u4e60\u8bbe\u8ba1\u6a21\u5f0f\uff1f  \u5728\u4e4b\u524d\u505a\u7ec4\u5185CI\u57fa\u7840\u8bbe\u65bd\u7684\u9879\u76ee\u4e2d\uff0c\u867d\u7136\u6211lead\u4e86\u6574\u4e2a\u9879\u76ee\u5e76\u4e14\u4ea7\u51fa\u4e86\u9879\u76ee\u4ee3\u7801\u768490%\uff0c\u4f46\u6709\u4e9b\u6a21\u5757/\u4ee3\u7801\u7684\u5b9e\u73b0\u5e76\u4e0d \u4f18\u96c5 \uff0c\u4e5f\u4e0dpythonic.\u8ffd\u6839\u6eaf\u6e90\uff0c\u95ee\u9898\u51fa\u5728\u4ee3\u7801\u7684\u7ec4\u7ec7\u7ed3\u6784\u4e0a\u9762\uff0c\u4e5f\u5373\uff0c\u5982\u4f55\u628a\u4ee3\u7801\u8bbe\u8ba1\u7684\u66f4\u52a0\u7b80\u6d01,\u76f4\u89c2\uff0c\u4f18\u96c5\u3002\u6362\u8a00\u4e4b,\u6211\u60f3\u8981\u4fdd\u8bc1 \u4e00\u5e74\u4e4b\u540e\uff0c\u6211\u770b\u5230\u73b0\u5728\u5199\u7684\u4ee3\u7801\uff0c\u4e0d\u4f1a\u89c9\u5f97\u8fd9\u662f\u54ea\u4e2a\u8822\u8d27\u5199\u7684\u70c2\u4ee3\u7801 \u3002\u5f53\u7136\uff0c\u4fdd\u8bc1\u4ee3\u7801\u4e0d\u4f1a\u70c2\u6389\u7684\u6700\u4f73\u65b9\u5f0f\u5c31\u662f\u6301\u7eed\u91cd\u6784\uff0c\u6301\u7eed\u5f00\u53d1\uff0c\u4f46\u8bbe\u8ba1\u4f18\u96c5\u7684\u4ee3\u7801\u5929\u7136\u7b80\u6d01\uff0c\u4f18\u7f8e\uff0c\u6613\u4e8e\u4fee\u6539\u3002  \u4e3a\u6b64\uff0c\u505a\u4e86\u4e00\u6b21Force Recon\uff0c\u9605\u8bfb\u4e86Peng Gong\u5b66\u957f\u7684 \u7ecf\u5178\u535a\u6587-\u7a0b\u5e8f\u5458\u5fc5\u8bfb\u4e66\u5355 1.0 \uff0c\u51b3\u5b9a\u4ed4\u7ec6\u5b66\u4e60\u4e00\u4e0b\u8bbe\u8ba1\u6a21\u5f0f\u3002", 
+            "title": "Motivation(\u52a8\u673a)"
+        }, 
+        {
+            "location": "/dp/motivation/#plan", 
+            "text": "\u6839\u636e\u524d\u671f\u641c\u96c6\u7684\u4fe1\u606f\u805a\u5408\uff0c\u8ba1\u5212\u5982\u4e0b\u3002   \u5148\u9605\u8bfb\u300aHead First \u8bbe\u8ba1\u6a21\u5f0f\u300b\u4ee5\u4e86\u89e3\u8bbe\u8ba1\u6a21\u5f0f\u7684\u57fa\u7840\u77e5\u8bc6\uff1a\u5178\u578b\u8bbe\u8ba1\u6a21\u5f0f\u3002  \u91cd\u65b0Review\u9879\u76ee\u4ee3\u7801\uff0c\u786e\u5b9a\u9700\u8981\u8fdb\u884c\u7684\u521d\u6b65\u6539\u8fdb\uff0c\u5217\u51faTODOLIST\u3002  \u9605\u8bfb\u300a\u8bbe\u8ba1\u6a21\u5f0f\u300b(GoF)\uff0c\u786e\u5b9a\u66f4\u6539\u7684\u5fc5\u8981\u6027\uff0c\u4fee\u6539TODOLIST\u4e0e\u539f\u6709\u8bbe\u8ba1\u6587\u6863\u3002  \u641c\u96c6Python\u76f8\u5173\u7684\u8bbe\u8ba1\u6a21\u5f0f\u5e94\u7528\u4e8e\u5b9e\u8df5Best Practice\uff0c\u6839\u636eTODOLIST\u8fdb\u884c\u91cd\u6784\u3002  \u91cd\u6784\u9879\u76ee\u4ee3\u7801\uff0c\u5e76\u5b9e\u73b0\u5bf9\u5e94\u6d4b\u8bd5\u7528\u4f8b\u3002", 
+            "title": "Plan(\u8ba1\u5212)"
+        }, 
+        {
+            "location": "/dp/motivation/#do", 
+            "text": "\u8ba1\u5212\u5b8c\u6210\u4ee5\u4e0b\u4efb\u52a1\u3002   \u9605\u8bfb  \u9605\u8bfb\u300aHead First \u8bbe\u8ba1\u6a21\u5f0f\u300b\u3002  \u9605\u8bfb\u300a\u8bbe\u8ba1\u6a21\u5f0f\u300b\u3002   \u641c\u96c6Python\u8bbe\u8ba1\u6a21\u5f0f\u7684Best Practice\u3002    \u5b9e\u73b0   \u5236\u5b9aTODOLIST\u3002  \u4fee\u6539\u8bbe\u8ba1\u6587\u6863\u4e0e\u6d4b\u8bd5\u6587\u6863\u3002  \u91cd\u6784\u4ee3\u7801\u3002   \u5b9e\u73b0\u6d4b\u8bd5\u7528\u4f8b\u3002    \u8bb0\u5f55   \u5b8c\u6210\u8bbe\u8ba1\u6a21\u5f0f\u76f8\u5173\u9605\u8bfb\u7684\u8bfb\u4e66\u7b14\u8bb0\uff08\u6bcf\u4e2a\u9605\u8bfb\u4efb\u52a1\u4e00\u7bc7\uff09\u3002  \u603b\u7ed3\u5b9e\u73b0\u8fc7\u7a0b\u4e2d\u7684\u60f3\u6cd5\u4e0e\u611f\u609f\uff08\u81f3\u5c11\u4e00\u7bc7\uff09\u3002   \u4e0b\u9762\u6ca1\u6709\u4e86\uff0c\u6211\u4e5f\u662f\u6709\u5e95\u7ebf\u7684\u4eba\u3002:)", 
+            "title": "Do(\u884c\u52a8)"
         }
     ]
 }
