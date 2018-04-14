@@ -7,3 +7,10 @@ Here comes Yifan's reading notes of books and documents. Every chapter in a book
 Intel 64 and IA-32 Architectures Software Developer Manuals
 
 <small>By Intel</small>
+
+#### [Design Patterns](dp/index.md)
+
+《Head First 设计模式》
+
+《设计模式》
+

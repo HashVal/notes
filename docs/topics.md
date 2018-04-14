@@ -22,3 +22,10 @@ Here comes the blog/note topics I am interested.
     * Instruction stream and data stream, single and multiple
     * Pipeline technology
     * **More to be added...**
+
+#### **Design Patterns**
+
+**Design Patterns, what, why and how**
+
+**Design patterns of best practice in python**
+
